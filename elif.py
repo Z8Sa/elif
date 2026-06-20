@@ -2,7 +2,8 @@
 
 gaya1 = 10*":" + " MATERI TKJ " + 10*":"
 judul = 15*" " + "TKJ" + 15*" "
-menu = f"""
+
+materi = input(f"""
 {gaya1}
 • DASAR KOMPUTER (DKR)
 • JARINGAN DASAR (JDR)
@@ -14,11 +15,9 @@ menu = f"""
 • CLOUD DAN VIRTUALISASI (CDV)
 • SKILL PENDUKUNG (SPG)
 {gaya1}
-"""
-print(menu)
-materi = input("PILIHAN MATERI : ")
-
+Pilihan materi : """)
 print()
+
 
 ## DKR
 if materi=="DKR":
@@ -46,10 +45,13 @@ if materi=="DKR":
         print(f"LINK BELAJAR :4 ")
     elif DKR=="5":
         print(f"LINK BELAJAR :5 ")
+    else:
+      print("Masukkan teks dengan benar")
+
 
 
 ## JDR
-if materi=="JDR":
+elif materi=="JDR":
     print(f"""{judul}
 {gaya1}
 • JARINGAN DASAR
@@ -80,6 +82,9 @@ if materi=="JDR":
       print(f"LINK BELAJAR :6 ")
     elif JDR=="7":
       print(f"LINK BELAJAR :7 ")
+    else:
+      print("Masukkan teks dengan benar")
+
 
 
 ## ASM
@@ -116,6 +121,9 @@ elif materi=="ASM":
       print(f"LINK BELAJAR :7 ")
     elif JDR=="8":
       print(f"LINK BELAJAR :8 ")
+    else:
+      print("Masukkan teks dengan benar")
+
 
 ## MRK
 elif materi=="MRK":
@@ -147,6 +155,9 @@ elif materi=="MRK":
       print("LINK BELAJAR : 6")
     elif MRK=="7":
       print("LINK BELAJAR : 7")
+    else:
+      print("Masukkan teks dengan benar")
+
     
 
 ## CDJ
@@ -174,6 +185,9 @@ elif materi=="CDJ":
       print("LINK BELAJAR : 4")
     elif CDJ=="5":
       print("LINK BELAJAR : 5")
+    else:
+      print("Masukkan teks dengan benar")
+
     
 
 ## WPD
@@ -201,6 +215,9 @@ elif materi=="WPD":
       print("LINK BELAJAR : 4")
     elif WPD=="5":
       print("LINK BELAJAR : 5")
+    else:
+      print("Masukkan teks dengan benar")
+
 
 ## KJN
 elif materi=="KJN":
@@ -221,6 +238,9 @@ elif materi=="KJN":
       print("LINK BELAJAR : 2")
     elif KJN=="3":
       print("LINK BELAJAR : 3")
+    else:
+      print("Masukkan teks dengan benar")
+
 
 ## CDV
 elif materi=="CDV":
@@ -236,14 +256,17 @@ elif materi=="CDV":
     CDV = input("PILIHAN PELAJARAN : ")
     if CDV=="1":
       print("LINK BELAJAR : 1")
-    if CDV=="2":
+    elif CDV=="2":
       print("LINK BELAJAR : 2")
-    if CDV=="3":
+    elif CDV=="3":
       print("LINK BELAJAR : 3")
-    if CDV=="4":
+    elif CDV=="4":
       print("LINK BELAJAR : 4")
-    if CDV=="5":
+    elif CDV=="5":
       print("LINK BELAJAR : 5")
+    else:
+      print("Masukkan teks dengan benar")
+
 
 ## SPG
 elif materi=="SPG":
@@ -273,11 +296,10 @@ elif materi=="SPG":
       print("LINK BELAJAR : 5")
     elif SPG=="6":
       print("LINK BELAJAR : 6")
-
     else:
-      print("Masukkan teks yang benar")
-      print()
+      print("Masukkan teks dengan benar")
 else:
-  print("pastikan teks yang anda masukkan ada di menu")
+  print("Pastikan teks yang anda masukkan benar")
+
 print()
 print("Close Program!!!....")
