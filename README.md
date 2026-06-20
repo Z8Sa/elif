@@ -94,19 +94,6 @@ Project ini dibuat untuk mempelajari:
 
 ---
 
-## 🛠️ Pengembangan Selanjutnya
-
-Beberapa fitur yang dapat ditambahkan:
-
-* Menggunakan Dictionary agar kode lebih ringkas
-* Menyimpan data materi dalam file JSON
-* Menu interaktif dengan perulangan (`while`)
-* Membuka link otomatis menggunakan browser
-* Tampilan terminal yang lebih menarik
-* Pencarian materi berdasarkan kata kunci
-
----
-
 ## 👨‍💻 Author
 
 Rafi
